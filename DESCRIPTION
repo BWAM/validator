@@ -19,3 +19,5 @@ Suggests:
 Language: en-US
 URL: https://github.com/BWAM/validator
 BugReports: https://github.com/BWAM/validator/issues
+Imports: 
+    pointblank
