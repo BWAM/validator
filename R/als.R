@@ -44,10 +44,28 @@ get_als_error_message <- function(.als) {
     )
 
     if (length(als_error_message) == 0) {
-      "Error message not found in HTM file"
-    } else {
-      als_error_message
+      # Print message in red.
+      not_found <- paste('<span style="color:firebrick">',
+                         "Error message not found in HTM file",
+                         '</span>')
+      # Return early because error message not found in file.
+      return(not_found)
     } # end length if
+
+    # If zero, then print a green message; otherwise a red message.
+    if (grepl(pattern = "There are 0 records in the Error Table",
+          x = als_error_message)) {
+      # Print Green
+      paste('<span style="color:forestgreen">',
+            als_error_message,
+            '</span>')
+    } else {
+      # Print Red
+      paste('<span style="color:firebrick">',
+            als_error_message,
+            '</span>')
+    }
+
 
   } # end null if
 }
