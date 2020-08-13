@@ -23,6 +23,7 @@ Imports:
     pointblank (>= 0.5.0),
     magrittr,
     DT,
-    rmarkdown
+    rmarkdown,
+    here
 Depends: 
     R (>= 2.10)
