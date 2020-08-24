@@ -4,6 +4,8 @@
 library(validator)
 # library(pointblank)
 library(knitr)
+# BWAM package available on GitHub: https://github.com/BWAM/zipper
+library(zipper)
 
 # Extract Project Root ----------------------------------------------------
 # This directory will provide relative paths between machines.
