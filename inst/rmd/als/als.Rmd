@@ -6,7 +6,7 @@ output:
   html_document:
     css: style.css
 params:
-  zip_path: "C:/Users/zmsmith.000/OneDrive - New York State Office of Information Technology Services/projects/validator/data-raw/als/R2004471.zip"
+  zip_path: "C:/Users/zmsmith.000/New York State Office of Information Technology Services/BWAM - 2020/ribs/R2003457.zip"
 ---
 
 
