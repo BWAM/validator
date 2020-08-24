@@ -7,8 +7,6 @@
 report_als(.zip_path, .output_dir)
 }
 \arguments{
-\item{.zip_path}{a file path to a zip file.}
-
 \item{.output_dir}{a file path were the rendered report will be stored.}
 }
 \value{

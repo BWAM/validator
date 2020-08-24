@@ -6,9 +6,6 @@
 \usage{
 as_als(.zip_path)
 }
-\arguments{
-\item{.zip_path}{a file path to a zip file.}
-}
 \value{
 an object of class "als".
 }
