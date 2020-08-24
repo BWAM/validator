@@ -6,11 +6,12 @@ library(validator)
 library(knitr)
 # BWAM package available on GitHub: https://github.com/BWAM/zipper
 library(zipper)
+# BWAM package available on GitHub: https://github.com/BWAM/ALS
+library(ALS)
 
 # Extract Project Root ----------------------------------------------------
 # This directory will provide relative paths between machines.
 root.dir <- here::here()
-
 
 # Rmd Options -------------------------------------------------------------
 # Hide all code chunks by default
